@@ -15,7 +15,7 @@
 /cdt_engineering          emmc     /dev/block/by-name/cdt_engineering        flags=display=cdt_engineering
 /vbmeta_vendor            emmc     /dev/block/by-name/vbmeta_vendor          flags=display=vbmeta_vendor;slotselect
 /vbmeta_system            emmc     /dev/block/by-name/vbmeta_system          flags=display=vbmeta_system;slotselect
-/cache                    ext4     /dev/block/by-name/oplusreserve2          flags=display=cache
+/cache                    ext4     /dev/block/by-name/oneplusreserve2          flags=display=cache
 /data                     f2fs     /dev/block/by-name/userdata               flags=display=data
 /metadata                 ext4     /dev/block/by-name/metadata               flags=display=metadata
 /mnt/vendor/protect_f     ext4     /dev/block/by-name/protect1               flags=display=protect_f
@@ -67,4 +67,4 @@ auto                      vfat     /devices/platform/11200000.usb3_xhci*     fla
 /usb_otg                  vfat     /dev/block/sdd1                           flags=display=usb_otg
 /vbmeta                   emmc     /dev/block/by-name/vbmeta                 flags=display=vbmeta
 /reserve2                 emmc     /dev/block/by-name/reserve2               flags=display=reserve2
-/opporeserve              ext4     /dev/block/by-name/oplusreserve2          flags=display=opporeserve
+/opporeserve              ext4     /dev/block/by-name/oneplusreserve2          flags=display=opporeserve

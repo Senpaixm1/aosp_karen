@@ -12,4 +12,3 @@ COMMON_LUNCH_CHOICES := \
     lineage_karen-user \
     lineage_karen-userdebug \
     lineage_karen-eng
-
